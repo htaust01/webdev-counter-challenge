@@ -1,5 +1,19 @@
 1. Why do you use "using strict" at the top of your JS files?
+
+The "use strict" directive enables JavaScript's strict mode which enforces stricter parsing and error handling
+on the code at runtime. It also helps you write cleaner code and catch errors and bugs that might otherwise go
+unnoticed.
+
 2. What does line 3 mean?
+
+It declares a variable, count, and initializes it to 0
+
 3. What is happening on lines 5-8 and why?
+
+These lines assigns the first element with a class equal to the string to a variable, so that you can access
+and manipulate the html and css of that element
+
 4. If you implemented the functionality of the buttons,
    why do you think I wrote the JS code the way I did?
+
+It breaks the code up into smaller pieces which can make it easier to update
